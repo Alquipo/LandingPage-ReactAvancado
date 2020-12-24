@@ -1,7 +1,7 @@
 {
   "collectionName": "components_page_section_reviews",
   "info": {
-    "name": "sectionReview",
+    "name": "sectionReviews",
     "icon": "star"
   },
   "options": {},
@@ -14,6 +14,7 @@
       "type": "component",
       "repeatable": true,
       "component": "page.reviews",
+      "required": true,
       "min": 4
     }
   }
