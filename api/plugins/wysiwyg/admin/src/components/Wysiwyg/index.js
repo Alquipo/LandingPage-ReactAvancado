@@ -48,11 +48,16 @@ const Wysiwyg = ({
       }}
     >
       <Label htmlFor={name} message={label} style={{ marginBottom: 10 }} />
-      <div>
+      <div
+        style={{
+          marginBottom: "1.6rem",
+        }}
+      >
         <Button color="primary" onClick={handleToggle}>
-          MediaLib
+          Add Image
         </Button>
       </div>
+
       <Editor name={name} onChange={onChange} value={value} />
       <InputDescription
         message={inputDescription}
